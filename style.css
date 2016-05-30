@@ -1,0 +1,109 @@
+.photo {
+	padding: 20px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+.container {
+	font-family: 'Karla', sans-serif;
+	background-color: white;
+	font-size: 120%;
+	color: #6D2D03;
+}
+.cv-block {
+	border-bottom-style: dashed;
+	border-bottom-width: 3px;
+	border-left-style: solid;
+	border-left-width : 30px;
+}
+
+.id {
+	border-color : #E66817;
+	background-color: #F9A46D;
+	line-height: 150%;
+
+}
+.id h1 {
+	font-weight: 800;
+}
+.job-title {
+	border-color : #8F5F3F;
+	background-color: #F9CDB0;
+
+}
+h2 {
+	font-weight: bold;
+}
+
+h3 {
+	font-weight: bold;
+}
+h5 {
+	font-weight: 600;
+}
+.exp1 {
+	border-color : #E7F76C;
+
+}
+.exp2 {
+	border-color : #838C3D;
+}
+.exp3 {
+	border-color : #7B8185;
+}
+
+.formation {
+	padding-bottom :15px;
+}
+
+.formation  h4 {
+	font-weight: bold;
+	padding-top :0px;
+	padding-bottom :0px;
+	margin-bottom : 0px;
+}
+.formation p {
+	padding-top :0px;
+	margin-top : 0px;
+	padding-bottom :0px;
+	margin-bottom : 0px;
+}
+.etude {
+	border-left-color : #F9A46D;
+	border-left-style : solid;
+	border-left-width : 30px;
+	
+	border-bottom-style: dashed;
+	border-bottom-width: 3px;
+}
+
+.interet {
+	border-left-color : #F9D76D;
+	border-left-style : solid;
+	border-left-width : 30px;
+}
+
+.cloud {
+	height : inherit;
+	border-left-style: solid;
+	border-left-width : 30px;
+	border-left-color : #E6B417;
+	
+}
+.etude-interet {
+	border-bottom-style: dashed;
+	border-bottom-width: 3px;
+}
+
+@media print
+{   
+	body:after { content: "           Online CV - http://padewitte.gweb.io"; }
+	.no-print, .no-print *
+	{
+		display: none !important;
+	}
+	.container {
+		font-size : 110%;
+	}
+}
