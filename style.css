@@ -98,7 +98,7 @@ h5 {
 
 @media print
 {   
-	body:after { content: "           Online CV - http://padewitte.gweb.io"; }
+	body:after { content: "           Online CV - https://padewitte.github.io/cv/"; }
 	.no-print, .no-print *
 	{
 		display: none !important;

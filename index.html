@@ -16,20 +16,20 @@
 <body>
 	<div class="container">
 		<div class="row id cv-block">
-			<div class="col-md-2 col-xs-4"><img class="photo" src="PAD1.jpg" height="200px" /></div>
+			<div class="col-md-2 col-xs-4"><img class="photo" src="PAD5.jpg" height="200px" /></div>
 			<div class="col-md-8 col-xs-8"><h1>Pierre-Alban DEWITTE</h1>
 				<i class="fa fa-home"></i> 4 all&eacute;e du Qu&eacute;bec, 44240 LA CHAPELLE SUR ERDRE<br/>
 				<i class="fa fa-mobile"></i> +33659556459<br/>
 				<i class="fa fa-envelope"></i> padewitte@gmail.com<br/>
 				<i class="fa fa-users"></i> Mari&eacute;, 2 enfants<br/>
-				<i class="fa fa-bookmark"></i> <a href="http://padewitte.tumblr.com/">Blog</a><br/>
+				<i class="fa fa-bookmark"></i> <a href="https://medium.com/@padewitte/">Blog</a><br/>
 			</div>
 			<div class="col-md-2 col-xs-12 no-print">
 				<a href="index_EN.html"><img src="english_flag.gif" width="150px"></img><br />English version</a>
 			</div>
 		</div>
 		<div class="row job-title cv-block">
-			<div class="col-md-12 col-xs-12"><h2>Architecte des données</h2></div>
+			<div class="col-md-12 col-xs-12"><h2>Manager, dévelopeur, architecte polyvalent</h2></div>
 		</div>
 		<div class="row etude-interet">
 			<div class="col-md-6 col-xs-12">
@@ -51,8 +51,6 @@
 						<h4>Centre d'intérêt</h4>
 						<p>Féru de veille technologique</p>
 						<p>Cuisinier à ses heures perdues</p>
-						<p>Amateur de cyclisme</p>
-						<p>Contributeur Apache Camel et <a href="http://padewitte.github.io/mrc/">MRC</a></p>
 					</div>
 				</div>
 			</div>
@@ -62,11 +60,30 @@
 				</div>
 			</div>
 		</div>
-		
+
+    <div class="row exp1 cv-block ">
+			<div class="col-md-12 col-xs-12">
+				<h3>Manageur de l'équipe cloud, MyScript</h3>
+				<h5>Nantes — depuis 2016</h5>
+				<p>
+					Responsable de l'équipe en charge du développement des offres cloud de MyScript.
+					<ul>
+						<li>Structuration de l'offre cloud et de l'équipe</li>
+						<li>Rationalisation techniqu</li>
+						<li>Développement</li>
+						<li>Documentation</li>
+						<li>Support client</li>
+					</ul>
+				</p>
+				<h5>Environnement technique</h5>
+				<p>Java, Javascript, Web Components, AWS, Polymer</p>
+			</div>
+		</div>
+
 		<div class="row exp2 cv-block ">
 			<div class="col-md-12 col-xs-12">
 				<h3>Architecte des données, MyScript</h3>
-				<h5>Nantes — depuis 2015</h5>
+				<h5>Nantes — 2015</h5>
 				<p>
 					Responsable de la mise en place de la base des encres regroupant l'ensemble des echantillons numériques collectés par MyScript depuis sa création.
 					<ul>
@@ -77,7 +94,6 @@
 						<li>Documentation</li>
 						<li>Accompagnement des utilisateurs</li>
 					</ul>
-
 				</p>
 				<h5>Environnement technique</h5>
 				<p>Tomcat, MongoDB, Spring-boot, Gradle, Twitter Bootstrap, LINUX</p>
@@ -212,24 +228,11 @@
 			<div class="col-md-8 col-xs-12">
 				<h3>Autres réalisations</h3>
 						<ul>
-							<li><strong>Expert du SI Bouygues Telecom depuis 2013. </strong></li>
-							<li>2014 - Création de la communauté MongoDB Nantes</li>
-							<li>2014 - Rédaction du support puis formation des DBA Bytel à MongoDB (2 jours)</li>
-							<li>2013 - Mise en place d’une animation sur l’organisation d’une veille technologique quotidienne</li>
-							<li>2012 - Organisation de la participation des développeurs de ma direction à DEVOXX France 2013</li>
-							<li>2012 - Participation au cadrage de la solution d’échange de fichier Bytel - Promoteur de Apache CAMEL</li>
-							<li>2011 - Présentation à 45 personnes des enjeux du cloud computing pour les développeurs</li>
+                <li>2017 - Speaker lors de <strong>DEVOXX France</strong>
+                <li>2016 - Speaker lors de la conférence <strong>WebComponent remote</strong></li>
+                <li>2016 - Speaker lors de <strong>DEVOXX Belgique</strong></li>
+                <li>2015 & 2016 - Speaker lors du<strong>BreizhCamp</strong></li>
 						</ul>
-			</div>
-			<div class="col-md-4 col-xs-12">
-				<h3>Formations professionnelles</h3>
-				<ul>
-					<li>2013 & 2014 - <strong>BreizhCamp</strong></li>
-					<li>2012 - <strong>Développer son activité et son équipe</strong></li>
-					<li>2012 - <strong>DEVOXX FR</strong></li>
-					<li>2011 - <strong>Le SI à 3 ans par Louis Nauges</strong></li>
-					<li>2009 - <strong>Passeport Management</strong></li>
-				</ul>
 			</div>
 		</div>
 	</div>
@@ -238,18 +241,15 @@
 	<script>
 		var fill = d3.scale.category20();
 		var w = 500;
-		var h = 350;
+		var h = 295;
 
-		var wordsPAD = [{text: "Websphere et Weblogic", size: 20},
+		var wordsPAD = [
 			{text: "POLYVALENT", size: 70},
 			{text: "Javascript", size: 20},
 			{text: "MongoDB", size: 40},
-			{text: "Lituanien", size: 10},
 			{text: "Développement", size: 40},
-			{text: "ORACLE", size: 20},
-			{text: "Gattling", size: 15},
-			{text: "Ansible", size: 15},
-			{text: "Storm", size: 40},
+			{text: "ORACLE", size: 10},
+			{text: "AWS", size: 50},
 			{text: "LINUX", size: 20},
 			{text: "Java", size: 60},
 			{text: "Roadmap", size: 20},
@@ -267,7 +267,7 @@
 			{text: "Groovy", size: 20},
 			{text: "Adaptation", size: 40},
 			{text: "Apache CAMEL", size: 30},
-			{text: "Intégration", size: 50},
+			{text: "DOCKER", size: 50},
 			{text: "SOAP et  WSDL", size: 30},
 			{text: "REST", size: 40}
 			];
