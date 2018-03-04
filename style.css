@@ -9,7 +9,7 @@
 	font-family: 'Karla', sans-serif;
 	background-color: white;
 	font-size: 120%;
-	color: #6D2D03;
+	color: #0A093B;
 }
 .cv-block {
 	border-bottom-style: dashed;
@@ -17,10 +17,15 @@
 	border-left-style: solid;
 	border-left-width : 30px;
 }
-
+.flag > img {
+  padding: 10px;
+}
+.flag > p {
+  text-align: center;
+}
 .id {
-	border-color : #E66817;
-	background-color: #F9A46D;
+	border-color : #88A4D4;
+	background-color: white;
 	line-height: 150%;
 
 }
@@ -28,8 +33,8 @@
 	font-weight: 800;
 }
 .job-title {
-	border-color : #8F5F3F;
-	background-color: #F9CDB0;
+	border-color : #A0B8E2;
+	background-color: #CFDDF5;
 
 }
 h2 {
@@ -43,14 +48,14 @@ h5 {
 	font-weight: 600;
 }
 .exp1 {
-	border-color : #E7F76C;
+	border-color : #88A4D4;
 
 }
 .exp2 {
-	border-color : #838C3D;
+	border-color : #A0B8E2;
 }
 .exp3 {
-	border-color : #7B8185;
+	border-color : #88A4D4;
 }
 
 .formation {
@@ -70,7 +75,7 @@ h5 {
 	margin-bottom : 0px;
 }
 .etude {
-	border-left-color : #F9A46D;
+	border-left-color : #88A4D4;
 	border-left-style : solid;
 	border-left-width : 30px;
 	
@@ -79,7 +84,7 @@ h5 {
 }
 
 .interet {
-	border-left-color : #F9D76D;
+	border-left-color : #A0B8E2;
 	border-left-style : solid;
 	border-left-width : 30px;
 }
@@ -88,7 +93,7 @@ h5 {
 	height : inherit;
 	border-left-style: solid;
 	border-left-width : 30px;
-	border-left-color : #E6B417;
+	border-left-color : #A0B8E2;
 	
 }
 .etude-interet {
